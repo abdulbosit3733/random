@@ -1,0 +1,73 @@
+.ota{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.sozla{
+    display: block;
+}
+
+.p{
+    color: rgb(24, 137, 150);
+    font-size: 20px;
+}
+
+.h1{
+    font-size: 42px;
+    background: linear-gradient(90deg, #002125 0%, #00e1ef 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.p1{
+    font-size: 20px;
+}
+
+.img{
+    width: 250px;
+    height: 250px;
+}
+
+    .i {
+        width: max-content;
+        border-radius: 76% 24% 71% 29% / 51% 30% 70% 49%;
+        transition: all 0.3s linear;
+        background-color: #002125;
+        padding: 12px;
+        /* animation: animation 2s infinite; */
+        animation: animation 3.2s ease-in-out infinite alternate-reverse;
+        background-image: linear-gradient(90deg, #002125 0%, #00e1ef 100%);
+      }  
+.i1 {
+    width: 300px;
+    padding: 22px;
+    height: auto;
+    border-radius: 76% 24% 71% 29% / 51% 30% 70% 49%;
+    transition: all 0.3s linear;
+    background-color: #002125;
+    overflow: hidden;
+    animation: animation 2.9s ease-in-out infinite alternate-reverse;
+  }
+
+  @keyframes animation {
+    0% {
+      border-radius: 76% 24% 71% 29% / 51% 30% 70% 49%;
+    }
+  
+    100% {
+      border-radius: 40% 60%;
+    }
+  }
+  
+  .fa-regular {
+   font-size: 30px;
+  }
